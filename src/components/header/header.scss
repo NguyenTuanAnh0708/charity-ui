@@ -1,0 +1,33 @@
+@use "../../scss/" as *;
+.header {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.header__inner {
+  @include flex(center, unset);
+  flex-direction: column;
+  &__logo {
+    height: 107px;
+    img {
+      width: 159px;
+      height: 100%;
+    }
+  }
+  &__nav {
+    display: flex;
+    @include mobile {
+      font-size: 1.8rem;
+    }
+    li {
+      cursor: pointer;
+      padding: 1.6rem;
+      &:hover {
+        color: $txt-hover;
+      }
+    }
+  }
+}

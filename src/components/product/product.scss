@@ -1,0 +1,25 @@
+@use "../../scss/" as *;
+.product {
+  cursor: pointer;
+  font-size: 16px;
+  &__img {
+    min-height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__name {
+    font-weight: lighter;
+  }
+  &__price {
+    color: #dc9814;
+  }
+}
+.long {
+  .product__img {
+    min-height: calc(302px + 15px + 250px);
+    @include tablet {
+      min-height: 250px;
+    }
+  }
+}

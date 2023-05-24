@@ -1,0 +1,15 @@
+@use "../../scss/" as *;
+.swiper-slide {
+  cursor: pointer;
+  img {
+    scale: 1;
+    transition: all 0.3s ease;
+  }
+  &:hover img {
+    scale: 1.1;
+  }
+}
+.swiper-wrapper ~ .swiper-button-prev,
+.swiper-wrapper ~ .swiper-button-next {
+  color: $white;
+}

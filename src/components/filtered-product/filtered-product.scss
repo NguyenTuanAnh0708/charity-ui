@@ -1,0 +1,38 @@
+@use "../../scss/" as *;
+.wapper {
+  max-width: 1244px;
+  margin: 4rem auto;
+  .filter {
+    @include flex(center, unset);
+    h3 {
+      font-weight: lighter;
+    }
+    @include mobile {
+      flex-direction: column;
+      font-size: 1.8rem;
+    }
+
+    & > * {
+      margin-right: 1rem;
+    }
+  }
+}
+.filtered-product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  .long {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    @include tablet {
+      grid-column: unset;
+      grid-row: unset;
+    }
+  }
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include tablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
