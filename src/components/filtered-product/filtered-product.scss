@@ -29,10 +29,14 @@
       grid-row: unset;
     }
   }
-  @include mobile {
-    grid-template-columns: repeat(2, 1fr);
-  }
   @include tablet {
     grid-template-columns: repeat(3, 1fr);
+    margin: 15px;
+    gap: 15px;
+  }
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    gap: 10px;
   }
 }
