@@ -1,6 +1,7 @@
 import React from "react";
 import "./filtered-product.scss";
 import { Product } from "../product/Product";
+import dataWeb from "../../data";
 const FilteredProduct = () => {
   return (
     <div className="wapper mt-5">
@@ -15,16 +16,9 @@ const FilteredProduct = () => {
         </select>
       </div>
       <div className="filtered-product mt-3">
-        <Product className="long" />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
-        <Product />
+        {dataWeb.data.map((product, index) => (
+          <Product className={index === 0 ? "long" : ""} product={product} />
+        ))}
       </div>
     </div>
   );

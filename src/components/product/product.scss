@@ -2,23 +2,24 @@
 .product {
   cursor: pointer;
   font-size: 16px;
-  &__img {
-    min-height: 250px;
+  &__img-container {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
   &__name {
     font-weight: lighter;
+    font-size: initial;
   }
   &__price {
     color: #dc9814;
   }
 }
 .long {
-  .product__img {
-    min-height: calc(302px + 15px + 250px);
+  .product__img-container {
+    height: calc(350px + 20px + 296px);
     @include tablet {
+      height: unset;
       min-height: 250px;
     }
   }
