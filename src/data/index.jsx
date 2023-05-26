@@ -174,5 +174,8 @@ const dataWeb = {
       productCategory: "Kẹp Tóc",
     },
   ],
+  introduceImg: [
+    "https://the350f.com/wp-content/uploads/2021/05/coconut.jpg"
+  ]
 };
 export default dataWeb;
