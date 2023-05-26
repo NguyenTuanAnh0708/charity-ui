@@ -16,23 +16,36 @@
     }
   }
 
-  .about-use__banner {
+  .about-us__banner {
     display: flex;
     align-items: center;
     width: 100%;
-    img {
-      width: 100%;
-      height: auto;
-      max-height: 410px;
-      object-fit: cover;
+    height: 410px;
+    @include mobile {
+      height: 210px;
+    }
+    .img__banner {
+      width: 120%;
+      /* Full height */
+      height: 100%;
+      background: url('../../assets/banner3.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
       @include tablet {
         width: 95%;
         margin: 0 auto;
+      }
+      @include mobile {
+        height: 100%;
       }
     }
   }
   .about-us__content {
     margin-top: 40px;
+    @include mobile {
+      text-align: center;
+    }
     @include tablet {
       width: 95%;
       margin: 0 auto;
@@ -69,4 +82,7 @@
     text-decoration: underline;
     cursor: pointer;
   }
+}
+iframe {
+  width: 100%;
 }

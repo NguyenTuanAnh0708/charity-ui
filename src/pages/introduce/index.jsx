@@ -8,13 +8,13 @@ const Introduce = () => {
         <div className="about-us__title">
           <p className="text-center">Về Chúng Tôi</p>
         </div>
-        <div className="about-use__banner">
-          <img src="https://c1.wallpaperflare.com/preview/997/416/917/eating-out-meat-restaurant-sausage.jpg" alt="" />
+        <div className="about-us__banner">
+          <div className="img__banner"></div>
         </div>
         <div className="about-us__content">
           <div className="the-name custom-content">
             <span className="col-2 span-title">"Xuất cơm thêm thịt"</span>
-            <div className="description col-10">
+            <div className="description col-10 col-12">
               <p>
                 Ở tiệm bánh The 350F, mỗi chiếc bánh là một câu chuyện riêng với hơi thở và tinh thần chẳng thể lẫn vào
                 đâu được
@@ -32,7 +32,7 @@ const Introduce = () => {
           </div>
           <div className="contact-content custom-content">
             <span className="col-2 span-title">Thông Tin Liên Hệ</span>
-            <div className="content col-10 description">
+            <div className="content col-10 col-12 description">
               <p>
                 Hotline: <span className="red-color">0908 788787</span>
               </p>
@@ -53,10 +53,10 @@ const Introduce = () => {
           </div>
           <div className=" about-us__site-map custom-content">
             <span className="span-title col-2">Bản đồ</span>
-            <div className="site-map col-10">
+            <div className="site-map col-10 col-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d8040982.783099506!2d113.7075886!3d10.2405114!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1685006803483!5m2!1svi!2s"
-                width="100%"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.7128440086868!2d106.68513647516416!3d10.822683697613424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528e5354446af%3A0xa63040ac539291e3!2zVHJ1bmcgVMOibSBOdcO0aSBExrDhu6FuZyBC4bqjbyBUcuG7oyBUcuG6uyBFbSBHw7IgVuG6pXA!5e0!3m2!1svi!2s!4v1685085390688!5m2!1svi!2s"
+                width="600"
                 height="450"
                 style={{ border: 0 }}
                 allowfullscreen=""

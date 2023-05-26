@@ -82,6 +82,9 @@ iframe {
 .col-10 {
   width: 80%;
 }
+.col-12 {
+  width: 100%;
+}
 .section__header {
   @include flex(center, space-between);
 }
