@@ -1,0 +1,88 @@
+@use '../../scss/' as *;
+.wapper {
+  max-width: 1244px;
+  margin: 4rem auto;
+
+  .about-us {
+    .about-us__title {
+      p {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin: 20px 0;
+        @include mobile {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  .about-us__banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 410px;
+    @include mobile {
+      height: 210px;
+    }
+    .img__banner {
+      width: 120%;
+      /* Full height */
+      height: 100%;
+      background: url('../../assets/banner3.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      @include tablet {
+        width: 95%;
+        margin: 0 auto;
+      }
+      @include mobile {
+        height: 100%;
+      }
+    }
+  }
+  .about-us__content {
+    margin-top: 40px;
+    @include mobile {
+      text-align: center;
+    }
+    @include tablet {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .custom-content {
+      display: flex;
+      @include tablet {
+        display: block;
+      }
+      .span-title {
+        margin: 20px 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        @include tablet {
+          font-size: 2rem;
+        }
+      }
+      .description {
+        p {
+          line-height: 1.3rem;
+          margin: 20px 0;
+          @include tablet {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+.red-color {
+  color: $red-color;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+iframe {
+  width: 100%;
+}

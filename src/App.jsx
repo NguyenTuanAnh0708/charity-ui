@@ -5,12 +5,12 @@ import SwiperAuto from "./components/swiper/Swiper";
 import { Product } from "./components/product/Product";
 import FilteredProduct from "./components/filtered-product/FilteredProduct";
 import Footer from "./components/footer/Footer";
+import Introduce from "./pages/introduce";
 const App = () => {
   return (
     <>
       <Header />
-      <SwiperAuto />
-      <FilteredProduct />
+      <Introduce />
       <Footer />
     </>
   );
