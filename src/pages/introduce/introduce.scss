@@ -1,0 +1,72 @@
+@use '../../scss/' as *;
+.wapper {
+  max-width: 1244px;
+  margin: 4rem auto;
+
+  .about-us {
+    .about-us__title {
+      p {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin: 20px 0;
+        @include mobile {
+          font-size: 2.5rem;
+        }
+      }
+    }
+  }
+
+  .about-use__banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 410px;
+      object-fit: cover;
+      @include tablet {
+        width: 95%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .about-us__content {
+    margin-top: 40px;
+    @include tablet {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .custom-content {
+      display: flex;
+      @include tablet {
+        display: block;
+      }
+      .span-title {
+        margin: 20px 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        @include tablet {
+          font-size: 2rem;
+        }
+      }
+      .description {
+        p {
+          line-height: 1.3rem;
+          margin: 20px 0;
+          @include tablet {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+.red-color {
+  color: $red-color;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
