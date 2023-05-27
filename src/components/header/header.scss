@@ -1,4 +1,4 @@
-@use "../../scss/" as *;
+@use '../../scss/' as *;
 .header {
   max-width: 1280px;
   margin: 0 auto;
@@ -27,6 +27,11 @@
       padding: 1.6rem;
       &:hover {
         color: $txt-hover;
+      }
+      .header-active {
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
       }
     }
   }

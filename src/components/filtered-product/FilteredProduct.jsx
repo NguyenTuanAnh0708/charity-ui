@@ -25,3 +25,4 @@ const FilteredProduct = () => {
 };
 
 export default FilteredProduct;
+
