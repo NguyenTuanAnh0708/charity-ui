@@ -86,3 +86,17 @@
 iframe {
   width: 100%;
 }
+.qr {
+  display: flex;
+  justify-content: space-around;
+  @include mobile {
+    flex-direction: column;
+    align-items: center;
+    & > * {
+      margin-bottom: 15px;
+    }
+  }
+}
+.bank {
+  border: 1px solid #78a92d;
+}
