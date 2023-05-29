@@ -10,7 +10,7 @@ const Footer = () => {
           <li>Suất Cơm Thêm Thịt</li>
           <li>© 2023 by Nguyễn Tuấn Anh</li>
         </ul>
-        <a className="fanpage" href="">
+        <a className="fanpage" href="https://www.facebook.com/profile.php?id=100093114694854" target="_blank">
           <i class="bx bxl-facebook-circle"></i>
         </a>
       </div>
