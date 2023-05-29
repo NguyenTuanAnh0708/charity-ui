@@ -15,7 +15,7 @@ const Introduce = () => {
         </div>
         <div className="about-us__content">
           <div className="the-name custom-content">
-            <span className="col-2 span-title">"Xuất cơm thêm thịt"</span>
+            <span className="col-2 span-title">"Suất cơm thêm thịt"</span>
             <div className="description col-10 col-12">
               <p>
                 là một dự án thiện nguyện quy mô nhỏ, với mục đích là đến trung tâm nuôi dưỡng cãi thiện bữa ăn tăng
@@ -58,13 +58,13 @@ const Introduce = () => {
                 Hotline: <span className="red-color">09841 58677</span>
               </p>
               <p>
-                Giải quyết khiếu nại: <span className="red-color">0908 66 88 27</span>
+                Giải quyết khiếu nại: <span className="red-color">0765 068754</span>
               </p>
               <p>
-                Email: <span>350fpastryhouse@gmail.com</span>
+                Email: <span>suatcomthemthit@gmail.com</span>
               </p>
               <p>
-                Nhóm bán các sản phẩm thiện nguyện ở: <span>Tất cả các ngày trong tuần</span>
+                Nhóm bán các sản phẩm thiện nguyện ở: <span className="red-color">Khu vực thành phố Hồ Chí Minh</span>
               </p>
             </div>
           </div>

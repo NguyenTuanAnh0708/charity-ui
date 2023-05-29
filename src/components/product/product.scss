@@ -1,4 +1,4 @@
-@use "../../scss/" as *;
+@use '../../scss/' as *;
 .product {
   cursor: pointer;
   font-size: 16px;
@@ -20,7 +20,7 @@
     height: calc(350px + 20px + 296px);
     @include tablet {
       height: unset;
-      min-height: 250px;
+      max-height: 250px;
     }
   }
 }

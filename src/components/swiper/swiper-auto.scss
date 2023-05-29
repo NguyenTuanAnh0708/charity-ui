@@ -1,12 +1,15 @@
-@use "../../scss/" as *;
+@use '../../scss/' as *;
 .swiper-slide {
   cursor: pointer;
   img {
     scale: 1;
     transition: all 0.3s ease;
+    width: 100%;
+    object-fit: cover;
+    max-height: 600px;
   }
   &:hover img {
-    scale: 1.1;
+    scale: 1;
   }
 }
 .swiper-wrapper ~ .swiper-button-prev,

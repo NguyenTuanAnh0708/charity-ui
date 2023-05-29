@@ -20,7 +20,7 @@ const Header = () => {
               className={({ isActive }) => (isActive ? 'header-active' : 'header-disable')}
               to="san-pham-gay-quy"
             >
-              Sản phẩm gây quỷ
+              Sản phẩm gây quỹ
             </NavLink>
           </li>
         </ul>
