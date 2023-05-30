@@ -13,7 +13,8 @@ const dataWeb = {
       id: 1,
       productName: 'Kẹp tóc hình cá mập 13cm',
       productImg: {
-        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-23030-2pn5drohwpov08',
+        primary:
+          'https://down-vn.img.susercontent.com/file/sg-11134201-23030-6qyeobmgwpov55?fbclid=IwAR3D-V2JwG4RuJSiXQwJnHh67AJBCNlteP4CuJt-lPA8ob5USxeyiiqa2fo',
         secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-23030-qn6io1ihwpov13',
       },
       productPrice: '25,000',
@@ -21,7 +22,7 @@ const dataWeb = {
     },
     {
       id: 2,
-      productName: 'Kẹp tóc càng cua lớn',
+      productName: 'Kẹp tóc càng cua lớn - Còn đen',
       productImg: {
         primary: 'https://down-vn.img.susercontent.com/file/34401143223a86c2589be3d86b5dac39',
         secondary: 'https://down-vn.img.susercontent.com/file/575308732e9ad0434a12f6ab9ac9220a',
@@ -71,7 +72,7 @@ const dataWeb = {
     },
     {
       id: 7,
-      productName: 'Kẹp tóc hình cá mập cở lớn',
+      productName: 'Kẹp tóc hình cá mập - Còn đen',
       productImg: {
         primary: 'https://down-vn.img.susercontent.com/file/1b073c450f8dfad7d0ce6c05ee695523',
         secondary: 'https://down-vn.img.susercontent.com/file/fa04cfd1bfe9eb70fac09b45cc092064',

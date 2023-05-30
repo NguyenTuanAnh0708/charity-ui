@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import dataWeb from '../../data';
 
 const Introduce = () => {
+  
   return (
     <div className="wapper mt-5">
       <div className="about-us">
@@ -37,9 +38,9 @@ const Introduce = () => {
             <div className="content col-10 col-12 description">
               <p>
                 <Link to="san-pham-gay-quy" className="red-color">
-                  Mua các sản phẩm gây quỷ:
+                  Mua các sản phẩm gây quỹ:
                 </Link>
-                <span> Lãi xuất của các sản phẩm gây quỷ cam đoan 100% sẽ được hổ trợ cho các bé</span>
+                <span> Lãi xuất của các sản phẩm gây quỹ cam đoan 100% sẽ được hổ trợ cho các bé</span>
               </p>
               <p>
                 Nếu bạn không có nhu cầu mua sản phẩm của chúng tôi hoặc nó không phù hợp với bạn bạn có thể ủng hộ
