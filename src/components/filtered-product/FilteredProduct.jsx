@@ -24,7 +24,7 @@ const FilteredProduct = () => {
       </div>
       <motion.div Layout className="filtered-product mt-3">
         {dataProduct.map((product, index) => (
-          <Product className={index === 0 ? 'long' : ''} product={product} />
+          <Product key={index} className={index === 0 ? 'long' : ''} product={product} />
         ))}
       </motion.div>
     </div>
