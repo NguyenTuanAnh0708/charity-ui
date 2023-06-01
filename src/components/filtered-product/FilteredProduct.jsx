@@ -15,11 +15,12 @@ const FilteredProduct = () => {
         <h3>Chọn loại sản phẩm</h3>
         <select onChange={(e) => setFilter(e.target.value)} value={filter}>
           <option value="All" defaultValue>
-            All
+            Tất cả
           </option>
           <option value="Băng đô">Băng đô</option>
           <option value="Kẹp tóc">Kẹp tóc</option>
           <option value="Dây buộc tóc">Dây buộc tóc</option>
+          <option value="Cài tóc">Cài tóc</option>
         </select>
       </div>
       <motion.div Layout className="filtered-product mt-3">

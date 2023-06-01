@@ -150,7 +150,118 @@ const dataWeb = {
       productPrice: '30,000',
       productCategory: 'Kẹp Tóc',
     },
+    {
+      id: 16,
+      productName: 'Cây cài tóc hình gấu',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-3kiu6mp509hv1e',
+        secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-3kiu6mp509hv1e',
+      },
+      productPrice: '30,000',
+      productCategory: 'Cài tóc',
+    },
+    {
+      id: 17,
+      productName: 'Băng đô cài tóc tai thỏ',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/6cc3e4add367d83187e0a0f7f17168a6',
+        secondary: 'https://down-vn.img.susercontent.com/file/b6e66e4447551e2cba6569573224b757',
+      },
+      productPrice: '30,000',
+      productCategory: 'Băng đô',
+    },
+    {
+      id: 18,
+      productName: 'Băng đô cà tóc mắt nai',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/8bd4290b711493395692266e1d505395',
+        secondary: 'https://down-vn.img.susercontent.com/file/8bd4290b711493395692266e1d505395',
+      },
+      productPrice: '30,000',
+      productCategory: 'Băng đô',
+    },
+    {
+      id: 19,
+      productName: 'Băng đô cài tóc tai gấu hồng',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22120-tpgzkixbailvfa',
+        secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22120-tpgzkixbailvfa',
+      },
+      productPrice: '36,000',
+      productCategory: 'Băng đô',
+    },
+    {
+      id: 20,
+      productName: 'Băng đô cài tóc càng cua',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/1cd62dd7cb0a153fe0ccf1f15a387403',
+        secondary: 'https://down-vn.img.susercontent.com/file/1cd62dd7cb0a153fe0ccf1f15a387403',
+      },
+      productPrice: '30,000',
+      productCategory: 'Băng đô',
+    },
+    {
+      id: 21,
+      productName: ' Băng đô cài tóc cà rốt',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/843bbf2d2bfc3d556f2ffa57a8633df7',
+        secondary: 'https://down-vn.img.susercontent.com/file/843bbf2d2bfc3d556f2ffa57a8633df7',
+      },
+      productPrice: '30,000',
+      productCategory: 'Băng đô',
+    },
+    {
+      id: 22,
+      productName: 'Kẹp tóc hoạt hình',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-ci1niggejeivd1',
+        secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-y03496jejeiv47',
+      },
+      productPrice: '30,000',
+      productCategory: 'Kẹp tóc',
+    },
+    {
+      id: 23,
+      productName: 'Kẹp tóc hình thú nhồi bông',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt74eoyljeiv87',
+        secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-yt74eoyljeiv87',
+      },
+      productPrice: '35,000',
+      productCategory: 'Kẹp tóc',
+    },
+    {
+      id: 24,
+      productName: 'Kẹp tóc basic',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-23030-41529idswpov3f',
+        secondary: 'https://down-vn.img.susercontent.com/file/vn-11134201-7qukw-leplebp5m08je6',
+      },
+      productPrice: '20,000',
+      productCategory: 'Kẹp tóc',
+    },
+    {
+      id: 25,
+      productName: 'Kẹp tóc trong suốt lấp lánh',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/13f504ee714edd5ffaf59ec1f24258c5',
+        secondary: 'https://down-vn.img.susercontent.com/file/0965ac6ae632c83e137aa00283be9b0d',
+      },
+      productPrice: '25,000',
+      productCategory: 'Kẹp tóc',
+    },
+    {
+      id: 26,
+      productName: 'Kẹp tóc cute',
+      productImg: {
+        primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-a46ee9eejeiv0d',
+        secondary: 'https://down-vn.img.susercontent.com/file/ba4e9dad6f21cf1927ea32a5bee9bd7f',
+      },
+      productPrice: '39,000',
+      productCategory: 'Kẹp tóc',
+    },
   ],
+
   introduceImg: ['https://the350f.com/wp-content/uploads/2021/05/coconut.jpg'],
   Qr: {
     momo: momoQr,
