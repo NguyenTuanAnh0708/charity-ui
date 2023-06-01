@@ -12,9 +12,10 @@ export const Product = ({ className = '', product }) => {
       className={`product ${className}`}
     >
       <div className="product__img-container">
-        <ProductImgs imgs={product.productImg} id={product.id} />
+        <ProductImgs imgs={product.productImg} />
       </div>
       <h3 className="product__name">{product.productName}</h3>
+      {product.soldOut && <span className="soldOut">Hết hàng</span>}
       <p className="product__price">{product.productPrice}VND</p>
     </motion.div>
   );

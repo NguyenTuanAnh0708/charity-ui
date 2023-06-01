@@ -37,7 +37,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-1soca39423ivae',
         secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-395nag8423iv88',
       },
-      productPrice: '27,000',
+      productPrice: '30,000',
       productCategory: 'Kẹp tóc',
     },
     {
@@ -47,7 +47,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/de2747ad827ca84810f64b83225bd6c2',
         secondary: 'https://down-vn.img.susercontent.com/file/96cc7a84c33a4ee0096eff30cd9979d1',
       },
-      productPrice: '30,000',
+      productPrice: '35,000',
       productCategory: 'Kẹp tóc',
     },
     {
@@ -57,7 +57,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-1cgnw749ohivfa',
         secondary: 'https://down-vn.img.susercontent.com/file/3ef91276f4e99b067d1054569177e7f0',
       },
-      productPrice: '30,000',
+      productPrice: '35,000',
       productCategory: 'Kẹp tóc',
     },
     {
@@ -87,7 +87,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/96cc7a84c33a4ee0096eff30cd9979d1',
         secondary: 'https://down-vn.img.susercontent.com/file/96cc7a84c33a4ee0096eff30cd9979d1',
       },
-      productPrice: '30,000',
+      productPrice: '35,000',
       productCategory: 'Kẹp tóc',
     },
     {
@@ -119,6 +119,7 @@ const dataWeb = {
       },
       productPrice: '27,000',
       productCategory: 'Kẹp tóc',
+      soldOut: true,
     },
     {
       id: 12,
@@ -129,6 +130,7 @@ const dataWeb = {
       },
       productPrice: '25,000',
       productCategory: 'Băng đô',
+      soldOut: true,
     },
     {
       id: 13,
@@ -147,7 +149,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-a46ee9eejeiv0d',
         secondary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22110-uderlh0fucjv88',
       },
-      productPrice: '30,000',
+      productPrice: '35,000',
       productCategory: 'Kẹp Tóc',
     },
     {
@@ -257,7 +259,7 @@ const dataWeb = {
         primary: 'https://down-vn.img.susercontent.com/file/sg-11134201-22100-a46ee9eejeiv0d',
         secondary: 'https://down-vn.img.susercontent.com/file/ba4e9dad6f21cf1927ea32a5bee9bd7f',
       },
-      productPrice: '39,000',
+      productPrice: '35,000',
       productCategory: 'Kẹp tóc',
     },
   ],
